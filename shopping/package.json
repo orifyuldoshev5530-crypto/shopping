@@ -4,7 +4,7 @@
   "description": "this is testing app",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node server.js",
     "compute": "node compute.js",
     "advise": "nodemon advise.js",
     "suggest": "nodemon suggest.js",
