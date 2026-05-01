@@ -1,10 +1,11 @@
+console.log("Web Server starts")
 const express = require('express')
 const app = express()
 const port = 3000
 
 // Traditional API
 app.get('/', (req, res) => {
-    res.send(<h1>Hello World!</h1>)
+    res.send('<h1>Hello World!</h1>')
 })
 
 // Rest API
