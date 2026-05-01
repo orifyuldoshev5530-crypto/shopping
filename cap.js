@@ -19,6 +19,19 @@ function division(a, b, callback) {
     }
 }
 
+async function run() {
+
+    let result = await division(10, 3);
+    console.log("result one:", result);
+
+    result = await division(10, 4);
+    console.log("result two:", result);
+
+    result = await division(10, 7);
+    console.log("result three:", result);
+}
+
+/* 
 // call
 division(12, 0, function (err, data) {
     if (err) {
@@ -84,4 +97,4 @@ division(10, 4).then(data => {
     });
 }).catch(err => {
     console.log("Error division:", err);
-});
+}); */
